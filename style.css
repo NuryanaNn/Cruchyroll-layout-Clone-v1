@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #23252b;
+    padding: 0 3%;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin-right: 25px;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.navbar ul li:hover{
+    background-color: gray;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    padding: 3% 10%;
+}
+
+.container .title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .title h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.title{
+    color: #fff;
+}
+
+.title ul{
+    display: flex;
+    list-style: none;
+    color: gray;
+}
+
+ .title ul li{
+    margin-right: 20px;
+ }
+
+.title ul li i{
+    margin-right: 10px;
+}
+
+.populerContent{
+    margin-top: 20px;
+}
+
+.populerContent .contents{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.populerContent .contents .card{
+    width: 170px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.populerContent .contents .card img{
+    width: 100%;
+}
+
+.populerContent .populerTitle h3{
+    font-weight: 400;
+}
+
+.populerContent .contents .card:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 1s;
+}
+
+.populerContent .contents .card h4{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.populerContent .contents .card .text{
+    padding-top: 7px;
+}
+
+.populerContent .contents .card .text ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.populerContent .contents .card .text ul li{
+    margin-right: 10px;
+}
+
+.populerContent .contents .card .text p{
+    color: skyblue;
+}
+
+.populerContent .contents .card .text ul li:nth-child(3){
+    color: gray;
+}
+
+.dot{
+    width: 5px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
